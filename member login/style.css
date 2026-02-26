@@ -1,0 +1,74 @@
+.container{width: 1000px;
+height: 700px;
+margin: auto;
+background-color: rgb(238, 83, 21); 
+display: flex;
+justify-content: center;
+align-items: center}
+.form{
+    text-align: center;
+}
+
+.case{height: 420px;
+width: 360px;
+background-color: rgb(235, 235, 235);
+text-align: center;
+display:flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+}
+.input_text{
+    margin-bottom: 15px;
+    height: 35px;
+    width: 280px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-bottom: 40px;
+}
+.forgot{margin-top: 20px;
+font-size: 13px;}
+.login_but{background-color: rgb(49, 172, 49);
+height: 45px;
+width: 280px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 15px;
+color:white}
+.or{margin: 25px;
+color:white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook,
+.twitter {
+    width: 160px;
+    height: 45px;
+
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 18px 18px;
+
+    padding-left: 40px;
+}
+
+.facebook {
+    background-color: rgb(59, 89, 152);
+    background-image: url("./facebook.png");
+}
+
+.twitter {
+    background-color: rgb(29, 161, 242);
+    background-image: url("./twitter.png");}
